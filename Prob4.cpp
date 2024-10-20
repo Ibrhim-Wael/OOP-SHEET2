@@ -5,6 +5,8 @@ The class should have member functions: - ‘Odometer_reset’: to reset the odo
 total - ‘num_of_gallons’: that returns the number of gallons of gasoline that the vehicle 
 has consumed since the odometer was last reset.
   */
+#include <iostream>
+using namespace std;
 class Odometer {
     private:
     float MilesDriven;

@@ -26,3 +26,14 @@ class BankAccount {
          cout << AccountHolderName << " " << AccountNumber << " " << Balance << endl;
      }
 };
+
+int main() {
+BankAccount User1;
+    User1.getBankAccInfo("Ibarhim",730,8000);
+    User1.deposit(100);
+    User1.display() ;//Ibrahim 730 8100
+    User1.withdraw(500);
+    User1.display();//Ibrahim 730 7600
+
+    return 0;
+}
